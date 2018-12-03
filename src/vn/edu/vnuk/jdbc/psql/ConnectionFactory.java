@@ -1,4 +1,4 @@
-package vn.edu.vnuk.jdbc_psql;
+package vn.edu.vnuk.jdbc.psql;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

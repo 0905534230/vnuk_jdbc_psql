@@ -1,7 +1,8 @@
-package vn.edu.vnuk.jdbc_psql.test;
+package vn.edu.vnuk.jdbc.psql.test;
 
 import java.sql.Connection;
-import vn.edu.vnuk.jdbc_psql.ConnectionFactory;
+
+import vn.edu.vnuk.jdbc.psql.ConnectionFactory;
 
 public class TestConnection {
 
