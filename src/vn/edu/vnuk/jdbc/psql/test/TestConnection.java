@@ -10,7 +10,7 @@ public class TestConnection {
 			Connection connection = new ConnectionFactory().getConnection();
 			System.out.println("Connection is open!");
 			connection.close();	
-	}
+		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}

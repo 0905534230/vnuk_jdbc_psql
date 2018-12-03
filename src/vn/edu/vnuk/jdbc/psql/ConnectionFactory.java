@@ -8,9 +8,9 @@ public class ConnectionFactory {
 	public Connection getConnection(){
 		try {
 			return DriverManager.getConnection(
-					"jdbc:postgresql://localhost/vnuk_psql",
-					"luyn",
-					"quan"
+				"jdbc:postgresql://localhost/vnuk_psql",
+				System.getenv("db_user"), 
+				System.getenv("db_password")
 			);		
 		}
 		catch(SQLException e) {
